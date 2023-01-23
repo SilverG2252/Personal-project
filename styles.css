@@ -11,13 +11,24 @@
     justify-content: space-between;
     align-items: center;
     background-color: purple;
-    color: whitesmoke;
+
     padding-left: 16px;
     height: 80px;
     max-width: 100%;
     margin: 0 auto;
     padding: 0 auto;
 }
+.nav__link:hover {
+    text-decoration: underline;
+    color: pink;
+}
+
+.nav__link--primary:hover {
+    border: 2px solid;
+    border-style:solid;
+    border-radius: 10px;
+}
+
 
 ul {
     list-style-type: none;
@@ -26,6 +37,7 @@ ul {
 }
 .nav__link {
     padding-left: 16px;
+    padding-right: 20px;
     color: whitesmoke;
     list-style-type: none;
     text-decoration: none;
@@ -38,10 +50,14 @@ li {
 }
 .name__logo {
     display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    color: whitesmoke;
+    padding-left: 16px;
 }
 #meat  {
     background-color: rgb(227, 204, 194);
-    height: 50vh;
+    height: 100vh;
     margin: 0 auto;
 
 }
@@ -91,6 +107,7 @@ p.meat_2{
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    color: whitesmoke;
 
 }
 .about__meat {
@@ -99,5 +116,36 @@ p.meat_2{
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    color: whitesmoke;
 
 }
+#About {
+    background-color: purple;
+    height: 100vh;
+}
+
+#Contact__section {
+    background-color: rgb(227, 204, 194);
+    height: 100vh;
+}
+
+.ContactLogo {
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+
+}
+.contact__meat {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: 0 auto;
+
+}
+.contact__image{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+ }
